@@ -1,0 +1,200 @@
+/*
+Theme Name: Brandon Savage SimpleTheme 2021
+Theme URI: http://www.brandonsavage.net/
+Description: Brandon Savage Simple Theme
+Author: Brandon Savage
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+*/
+
+body {
+    font-family: Garamond, Times, serif;
+    background: white;
+    color: black;
+    line-height: 2em;
+    max-width: 40em;
+    padding: 3em 1em 10em 1em;
+    text-align: left;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+
+h2 {
+    font-size: 1.6em;
+    line-height: 1.3em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    background-color: #659e55;
+    border-radius: 2em;
+    color: white;
+    font-weight: 700;
+    display: block;
+    font-family: Verdana, sans-serif;
+    padding: 0.6em 0.5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10em;
+}
+
+form input[type=email] {
+    -webkit-appearance: none;
+    border: 3px solid #000B3F;
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 700;
+    font-size: 1em;
+    padding: .5em;
+    width: 100%;
+}
+
+form input[type=submit] {
+    -webkit-appearance: none;
+    border: 3px solid #659e55;
+    background: #659e55;
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 700;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em;
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+@media screen and (max-width: 500px) {
+    .button{
+        margin: 0 !important;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    form input[type=email],
+    form input[type=submit] {
+        display: inline-block;
+        width: 25em;
+
+    }
+}
+
+.menu ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    margin: .5em;
+    padding: .5em;
+}
+
+a {
+    color: #3c9fc2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3c9fc2;
+    text-decoration: underline;
+}
+
+hr {
+    color: #3c9fc2;
+    margin: 2em 0;
+}
+
+blockquote {
+    background: #3071b0;
+    color: white;
+    margin: 1em 0 0 50px;
+    padding: 1em 1.9em 0.1em 4em;
+    position: relative;
+}
+
+blockquote img.avatar
+{
+    display: block;
+    border-radius: 50px;
+    width: 100px;
+    max-width:  100px;
+    background: white;
+    left: -50px;
+    position: absolute;
+    top: 20px;
+}
+
+blockquote a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/** Navigation for newer/older entries **/
+
+.post_nav {
+    width: 100%;
+}
+
+.postnav td {
+    width: 50%;
+}
+
+td.left {
+    text-align: left;
+}
+
+td.right {
+    text-align: right;
+}
+
+.logo {
+    padding-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.alignleft {
+	clear: left;
+	float: left;
+}
+
+.alignright {
+	clear: right;
+	float: right;
+}
+
+.formkit h2 {
+	margin: 0;
+}

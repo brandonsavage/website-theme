@@ -1,0 +1,331 @@
+/*
+Theme Name: BrandonSavage.net Theme 2012
+Theme URI: http://www.brandonsavage.net/
+Description: BrandonSavage.net Theme
+Author: Brandon Savage
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+*/
+
+body {
+     text-align: center;
+     background: #818CD6 url('images/gradient.png') repeat-x;
+     margin: 0;
+     font-family: Geneva,Tahoma,sans-serif;
+     font-size: 12pt;
+ }
+ 
+a {
+    color: #172782;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+ #container {
+     clear: both;
+     margin: 0 auto;
+     padding: 0;
+     text-align: left;
+     width: 948px;
+ }
+ 
+ #header {
+     height: 120px;
+ }
+ 
+ #logo {
+     padding-left: 110px;
+     height: 111px;
+     background: url('images/circle.png') transparent no-repeat 0 0;
+     color: #8E8EF2;
+     font-size: 25pt;
+     line-height: 111px;
+     clear: left;
+     float: left;
+ }
+ 
+ #infobox {
+     margin-top: 22px;
+     clear: right;
+     float: right;
+     color: black;
+     width: 350px;
+     font-size: 12px;
+     background: url('images/brandon-small.jpg') transparent no-repeat 0 0;
+     padding-left: 80px;
+     height: 78px;
+ }
+ 
+ #main {
+     background: url('images/main-bg.png') repeat-y;
+     width: 948px;
+ }
+ 
+ #content {
+     clear: left;
+     float: left;
+     width: 626px;
+     padding: 15px;
+     line-height: 1.5em;
+     
+ }
+ 
+ #sidebar {
+     clear: right;
+     float: right;
+     width: 289px;
+     padding: 0;
+ }
+ 
+ #menu {
+     height: 40px;
+     background: url('images/bg-menu.png');
+ }
+ 
+ #menu ul li a {
+     color: #6E72D5;
+     display: block;
+     padding: 10px 12px 8px;
+     text-align: center;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
+ #menu ul li a:hover {
+     background: #D9DCF1;
+ }
+ 
+ #menu ul li.current_page_item a {
+     color: white;
+ }
+ 
+ #menu ul {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ #menu ul li {
+     border-left: 1px solid #5B5B5B;
+     border-right: 1px solid #000000;
+     display: block;
+     float: left;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     position: relative;
+ }
+ 
+ #menu ul li:first-child {
+     border-left: 0 none;
+ }
+ 
+ #footer {
+     background: #464646;
+     border: 1px solid #464646;
+     color: white;
+     font-size: 10pt;
+     padding: 10px;
+     width: 948;
+     margin-bottom: 10px;
+ }
+ 
+ /** Footer menu **/
+ 
+#footer #footer-menu ul li a {
+  color: #6E72D5;
+  padding: 0px 12px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer #footer-menu ul li a:hover {
+  background: #D9DCF1;
+}
+
+#footer #footer-menu ul li.current_page_item a {
+  color: white;
+}
+
+#footer #footer-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#footer #footer-menu ul li {
+  display: block;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-copyright {
+
+    text-align: right;
+
+}
+
+ .clearing {
+     clear: both;
+     height: 1px;
+
+ }
+ 
+ .post-excerpt {
+     font-size: 10pt;
+     border-top: 1px solid #8D98DD;
+     margin-bottom: 20px;
+ }
+ 
+ h1.headline {
+     font-size: 15pt;
+ }
+ 
+ .date-header {
+     font-size: 12pt;
+     font-weight: bold;
+     background-color: #8D98DD;
+     padding: 7px 0px 7px 5px;
+ }
+ 
+ .comments {
+     font-size: 9pt;
+     font-weight: bold;
+     line-height: normal;
+ }
+ 
+ /** Widget CSS **/
+ 
+ .sidebar-widget {
+     padding: 8px;
+     font-size: 10pt;
+ }
+ 
+ .sidebar-widget h3 {
+     margin: 0;
+     font-size: 12pt;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ 
+ .widget_search {
+     background: #EAEAEA;
+ }
+ 
+ .widget_mailchimpsf_widget {
+     background: #959595;
+ }
+ 
+#mc_subheader {
+     padding: 10px 0px 10px 0px;
+ }
+ 
+ .sidebar-widget ul
+ {
+     padding: 0;
+ }
+ 
+ .sidebar-widget ul li:first-child {
+     border-top: 1px solid Gray;
+ }
+ 
+ .sidebar-widget ul li {
+     border-bottom: 1px solid Gray;
+     font-size: 9pt;
+     list-style: none outside none;
+     padding: 11px 0;
+ }
+ 
+ .screen-reader-text {
+     display: none;
+ }
+ 
+#searchform div {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+/** comments CSS **/
+.comment-item
+{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.comment-item img
+{
+    clear: right;
+    float: right;
+    padding: 5px;
+    margin: 0px 3px 3px 0px;
+    border: 1px solid #999999;
+}
+
+/** Navigation for newer/older entries **/
+
+.post_nav {
+    width: 100%;
+}
+
+.postnav td {
+    width: 50%;
+}
+
+td.left {
+    text-align: left;
+}
+
+td.right {
+    text-align: right;
+}
+
+.attachment-post-thumbnail {
+    clear: left;
+    float: left;
+    padding: 5px;
+    margin: 0px 10px 10px 0px;
+    border: 1px solid Grey;
+}
+
+.share-box {
+    border-top: 1px solid Grey;
+    padding: 10px;
+    font-size: 10pt;
+    margin: 10px 0px 10px 0px;
+}
+
+.related-box {
+    border: 1px solid Grey;
+    font-size: 10pt;
+    padding: 7px;
+    margin: 10px 0px 10px 0px;
+}
+
+.related-box h3 {
+    margin: 0;
+}
+
+.related-box .attachment-post-thumbnail {
+    margin-bottom: 0;
+}
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+   
+.warning {
+    border: 2px solid #D0151E;
+    background: #F2B4A2;
+    color: #D0151E;
+    padding: 10px;
+    margin: 5px;
+}
